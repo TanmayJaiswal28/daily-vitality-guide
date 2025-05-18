@@ -7,11 +7,11 @@ import {
   Moon, 
   Utensils, 
   Dumbbell, 
-  Stretch, 
   BookOpen, 
   Weight, 
   Wind, 
-  SmilePlus 
+  SmilePlus,
+  StretchHorizontal
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -25,7 +25,7 @@ const Sidebar = () => {
     { name: "Sleep Tracker", path: "/sleep", icon: <Moon /> },
     { name: "Meal Log", path: "/meals", icon: <Utensils /> },
     { name: "Fitness Checklist", path: "/fitness", icon: <Dumbbell /> },
-    { name: "Stretch Routine", path: "/stretch", icon: <Stretch /> },
+    { name: "Stretch Routine", path: "/stretch", icon: <StretchHorizontal /> },
     { name: "Journal", path: "/journal", icon: <BookOpen /> },
     { name: "Weight Tracker", path: "/weight", icon: <Weight /> },
     { name: "Breathing", path: "/breathing", icon: <Wind /> },

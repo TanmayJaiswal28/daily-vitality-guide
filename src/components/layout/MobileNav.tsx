@@ -7,13 +7,13 @@ import {
   Moon, 
   Utensils, 
   Dumbbell, 
-  Stretch, 
   BookOpen, 
   Weight, 
   Wind, 
   SmilePlus,
   Menu,
-  X
+  X,
+  StretchHorizontal
 } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -28,7 +28,7 @@ const MobileNav = () => {
     { name: "Sleep Tracker", path: "/sleep", icon: <Moon size={20} /> },
     { name: "Meal Log", path: "/meals", icon: <Utensils size={20} /> },
     { name: "Fitness Checklist", path: "/fitness", icon: <Dumbbell size={20} /> },
-    { name: "Stretch Routine", path: "/stretch", icon: <Stretch size={20} /> },
+    { name: "Stretch Routine", path: "/stretch", icon: <StretchHorizontal size={20} /> },
     { name: "Journal", path: "/journal", icon: <BookOpen size={20} /> },
     { name: "Weight Tracker", path: "/weight", icon: <Weight size={20} /> },
     { name: "Breathing", path: "/breathing", icon: <Wind size={20} /> },
