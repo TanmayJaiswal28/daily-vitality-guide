@@ -9,6 +9,7 @@ import WaterPage from "./pages/WaterPage";
 import MoodPage from "./pages/MoodPage";
 import SleepPage from "./pages/SleepPage";
 import BreathingPage from "./pages/BreathingPage";
+import MealsPage from "./pages/MealsPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/mood" element={<MoodPage />} />
           <Route path="/sleep" element={<SleepPage />} />
           <Route path="/breathing" element={<BreathingPage />} />
+          <Route path="/meals" element={<MealsPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
